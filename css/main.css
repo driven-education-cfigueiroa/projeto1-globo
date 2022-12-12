@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.content-left {
+  margin-right: 40px;
+  width: 52.8%;
+}
+
+.content-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-left-mid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left-bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-right {
+  display: flex;
+  width: 47.2%;
+  justify-content: space-evenly;
+}

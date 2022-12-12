@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+nav {
+  height: 45px;
+  border: 1px solid var(--color-border-02);
+  border-left: none;
+  border-right: none;
+}
+
+ul {
+  width: 100%; /* didn't understand why i had to do this to <ul> behave like a normal block element*/
+  max-width: 1250px;
+}
+
+.menu-default {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: var(--font-weight-03);
+  font-size: var(--font-size-03);
+  line-height: var(--line-height-04);
+  letter-spacing: var(--letter-spacing-03);
+}
+
+.menu-01 {
+  color: var(--color-menu-01);
+}
+
+.menu-02 {
+  color: var(--color-menu-02);
+}
+
+.menu-03 {
+  color: var(--color-menu-03);
+}
+
+.menu-04 {
+  color: var(--color-menu-04);
+}
+
+.menu-05 {
+  color: var(--color-menu-05);
+}
+
+.menu-06 {
+  color: var(--color-menu-06);
+}
+
+.menu-07 {
+  color: var(--color-menu-07);
+}
+
+.menu-08 {
+  color: var(--color-menu-08);
+}
+
+.menu-09 {
+  color: var(--color-menu-09);
+}
+
+.menu-10 {
+  color: var(--color-menu-10);
+}

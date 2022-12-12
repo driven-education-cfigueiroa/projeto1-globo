@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root {
+  --font-01: "Encode Sans", sans-serif; /* default */
+
+  --font-size-01: 14px; /* default */
+  --font-size-02: 18px; /* matéria secundária */
+  --font-size-03: 19px; /* nav */
+  --font-size-04: 20px; /* h3 */
+  --font-size-05: 52px; /* matéria principal */
+
+  --font-weight-01: 400; /* Normal */
+  --font-weight-02: 500; /* Medium */
+  --font-weight-03: 700; /* Bold */
+
+  --line-height-01: 18px; /* default */
+  --line-height-02: 19px; /* h5 */
+  --line-height-03: 22px; /* matéria secundária */
+  --line-height-04: 24px; /* nav */
+  --line-height-05: 25px; /* h3 */
+  --line-height-06: 67px; /* matéria principal */
+
+  --letter-spacing-01: -0.048em;
+  --letter-spacing-02: -0.045em;
+  --letter-spacing-03: -0.02em;
+  --letter-spacing-04: -0.01em;
+
+  --color-01: #2f3134; /* default text color - ebony*/
+  --color-02: #16ae54; /* liberty green */
+  --color-03: #ec8006; /* pumpkin cat*/
+  --color-04: #303134; /* black cat - h2 */
+  --color-05: #c3170c; /* international orange 1 */
+  --color-06: #c4160c; /* h1 color - international orange 2 */
+  --color-07: #ffffff; /* white */
+
+  --color-border-01: #ebedef; /* border main */
+  --color-border-02: #f5f6f7; /* border nav */
+
+  /* 🌈 menu rainbow 🌈 */
+  --color-menu-01: #c4170c; /* 'g1' */
+  --color-menu-02: #1e4b9b; /* 'o globo' */
+  --color-menu-03: #006766; /* 'valor' */
+  --color-menu-04: #07aa47; /* 'ge' */
+  --color-menu-05: #e3662b; /* 'cartola' */
+  --color-menu-06: #fb0735; /* 'globoplay' */
+  --color-menu-07: #ff75bb; /* 'dropz' */
+  --color-menu-08: #ec7d00; /* 'gshow' */
+  --color-menu-09: #323333; /* 'quem' */
+  --color-menu-10: #a81d83; /* 'receitas' */
+}
+
+body {
+  color: var(--color-01);
+  font-family: var(--font-01);
+  font-size: var(--font-size-01);
+  font-weight: var(--font-weight-01);
+  line-height: var(--line-height-01);
+  letter-spacing: var(--letter-spacing-01);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  filter: brightness(1.25);
+}

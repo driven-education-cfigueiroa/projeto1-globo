@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+header {
+  height: 80px;
+}
+
+main {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 35px;
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-small {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.img-medium {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.border-width {
+  border-top: 1px solid var(--color-border-02);
+}
+
+.border-height {
+  border-left: 1px solid var(--color-border-02);
+  border-right: 1px solid var(--color-border-02);
+}
+
+h1 {
+  font-weight: var(--font-weight-03);
+  font-size: var(--font-size-05);
+  line-height: var(--line-height-06);
+  letter-spacing: var(--letter-spacing-04);
+  color: var(--color-06);
+}
+
+h2 {
+  font-weight: var(--font-weight-02);
+  font-size: var(--font-size-02);
+  line-height: var(--line-height-03);
+  letter-spacing: var(--letter-spacing-04);
+  color: var(--color-04);
+}
+
+h3 {
+  font-weight: var(--font-weight-03);
+  font-size: var(--font-size-04);
+  line-height: var(--line-height-05);
+  letter-spacing: var(--letter-spacing-02);
+}
+
+h4 {
+  font-weight: var(--font-weight-02);
+  letter-spacing: var(--letter-spacing-03);
+}
+
+.content-left h4 {
+  color: var(--color-menu-01);
+}
+
+.content-right-central h4 {
+  color: var(--color-02);
+}
+
+.content-right-outer h4 {
+  color: var(--color-03);
+}
+
+h5 {
+  line-height: var(--line-height-02);
+}
+
+.content-left-mid,
+.content-left-bot {
+  padding-top: 24px;
+}
+
+.card-left {
+  max-width: 193px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+
+.card-right {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.card-last {
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  gap: 8px;
+}
+
+.page-end {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.position {
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+}
